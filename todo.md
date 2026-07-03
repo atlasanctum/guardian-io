@@ -78,3 +78,9 @@
 - [ ] Prepare deployment materials
 - [ ] Create user guides for each role
 - [ ] Document API and backend setup
+
+
+## Phase 2.5: Priority Features (User Request)
+- [x] Worker Rights Reporting form with incident categories and escalation
+- [x] QR Code Scanner for product traceability (Consumer role)
+- [x] Biodiversity Hotspot Map with real-time incident tracking

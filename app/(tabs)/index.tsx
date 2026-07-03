@@ -29,6 +29,7 @@ export default function HomeScreen() {
       <View className="gap-3">
         <Text className="text-lg font-semibold text-foreground">Quick Actions</Text>
         <TouchableOpacity
+          onPress={() => router.push('/worker-reporting')}
           style={{ backgroundColor: colors.primary }}
           className="p-4 rounded-xl items-center active:opacity-80"
         >
@@ -67,10 +68,11 @@ export default function HomeScreen() {
       <View className="gap-3">
         <Text className="text-lg font-semibold text-foreground">Quick Actions</Text>
         <TouchableOpacity
+          onPress={() => router.push('/biodiversity-map')}
           style={{ backgroundColor: colors.primary }}
           className="p-4 rounded-xl items-center active:opacity-80"
         >
-          <Text className="text-white font-semibold">Report Wildlife Incident</Text>
+          <Text className="text-white font-semibold">View Hotspot Map</Text>
         </TouchableOpacity>
         <TouchableOpacity
           style={{ backgroundColor: colors.ocean }}
@@ -145,6 +147,7 @@ export default function HomeScreen() {
       <View className="gap-3">
         <Text className="text-lg font-semibold text-foreground">Quick Actions</Text>
         <TouchableOpacity
+          onPress={() => router.push('/qr-scanner')}
           style={{ backgroundColor: colors.primary }}
           className="p-4 rounded-xl items-center active:opacity-80"
         >

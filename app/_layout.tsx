@@ -90,6 +90,9 @@ export default function RootLayout() {
           <Stack screenOptions={{ headerShown: false }}>
             <Stack.Screen name="(tabs)" />
             <Stack.Screen name="role-selection" />
+            <Stack.Screen name="worker-reporting" />
+            <Stack.Screen name="qr-scanner" />
+            <Stack.Screen name="biodiversity-map" />
             <Stack.Screen name="oauth/callback" />
           </Stack>
           <StatusBar style="auto" />
