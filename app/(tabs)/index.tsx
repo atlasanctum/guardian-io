@@ -36,10 +36,11 @@ export default function HomeScreen() {
           <Text className="text-white font-semibold">Report Rights Violation</Text>
         </TouchableOpacity>
         <TouchableOpacity
+          onPress={() => router.push('/report-tracking')}
           style={{ backgroundColor: colors.ocean }}
           className="p-4 rounded-xl items-center active:opacity-80"
         >
-          <Text className="text-white font-semibold">View Labor Passport</Text>
+          <Text className="text-white font-semibold">Track Report Status</Text>
         </TouchableOpacity>
         <TouchableOpacity
           style={{ backgroundColor: colors.forest }}

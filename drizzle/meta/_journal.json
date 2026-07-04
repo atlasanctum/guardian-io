@@ -8,6 +8,20 @@
       "when": 1763372440610,
       "tag": "0000_elite_eternals",
       "breakpoints": true
+    },
+    {
+      "idx": 1,
+      "version": "5",
+      "when": 1783158252553,
+      "tag": "0001_absent_sleepwalker",
+      "breakpoints": true
+    },
+    {
+      "idx": 2,
+      "version": "5",
+      "when": 1783158277539,
+      "tag": "0002_kind_bug",
+      "breakpoints": true
     }
   ]
 }
