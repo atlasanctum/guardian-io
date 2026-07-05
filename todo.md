@@ -94,3 +94,32 @@
 - [ ] Implement multimedia capture (camera, file upload)
 - [ ] Add push notification system for report updates
 - [ ] Create Community Treasury and Impact Ledger dashboards
+
+
+## Phase 4: Backend Integration & Multimedia Capture
+- [x] Connect worker-reporting screen to tRPC API endpoints
+- [x] Connect biodiversity-map screen to real incident data API
+- [x] Connect qr-scanner to product database API
+- [x] Implement image picker for report attachments
+- [x] Implement camera capture for incident documentation
+- [ ] Add file upload to S3 storage
+- [ ] Implement real-time report status updates via API
+- [ ] Add error handling and retry logic for API calls
+
+## Phase 5: Gamification & Rewards System
+- [x] Create leaderboard screen with top contributors
+- [x] Implement achievement badge system
+- [x] Build rewards redemption interface
+- [ ] Add user profile with contribution history
+- [ ] Implement point calculation logic
+- [ ] Create notification system for achievements
+- [ ] Add progress tracking visualizations
+
+## Phase 6: Enhanced Features
+- [x] Create enhanced worker reporting with multi-step form
+- [x] Add multimedia capture hooks (camera, image picker, video)
+- [x] Create API client hooks for all Guardian-IO features
+- [ ] Implement real database connection
+- [ ] Add push notifications for report updates
+- [ ] Create user profile screen
+- [ ] Add settings and preferences management
