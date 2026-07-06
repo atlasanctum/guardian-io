@@ -95,6 +95,7 @@ export default function RootLayout() {
             <Stack.Screen name="qr-scanner" />
             <Stack.Screen name="biodiversity-map" />
             <Stack.Screen name="leaderboard" />
+            <Stack.Screen name="user-profile" />
             <Stack.Screen name="oauth/callback" />
           </Stack>
           <StatusBar style="auto" />

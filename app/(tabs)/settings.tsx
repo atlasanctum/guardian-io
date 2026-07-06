@@ -62,6 +62,13 @@ export default function SettingsScreen() {
                 <Text className="text-sm text-muted">{getRoleLabel()}</Text>
               </View>
               <TouchableOpacity
+                onPress={() => router.push('/user-profile')}
+                style={{ backgroundColor: colors.ocean }}
+                className="py-3 rounded-lg items-center active:opacity-80"
+              >
+                <Text className="text-white font-semibold">View My Profile</Text>
+              </TouchableOpacity>
+              <TouchableOpacity
                 onPress={handleChangeRole}
                 style={{ backgroundColor: colors.primary }}
                 className="py-3 rounded-lg items-center active:opacity-80"

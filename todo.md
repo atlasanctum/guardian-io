@@ -119,7 +119,12 @@
 - [x] Create enhanced worker reporting with multi-step form
 - [x] Add multimedia capture hooks (camera, image picker, video)
 - [x] Create API client hooks for all Guardian-IO features
+- [x] Implement permissions management hook (camera, media library, location)
+- [x] Add permissions declarations to app.config.ts (iOS and Android)
+- [x] Create push notifications hook with templates
+- [x] Create database query layer with Drizzle ORM
+- [x] Create user profile screen with contributions and achievements
+- [x] Add profile navigation to settings screen
 - [ ] Implement real database connection
-- [ ] Add push notifications for report updates
-- [ ] Create user profile screen
-- [ ] Add settings and preferences management
+- [ ] Add advanced analytics dashboard
+- [ ] Create impact visualization screens

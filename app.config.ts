@@ -51,8 +51,13 @@ const config: ExpoConfig = {
     supportsTablet: true,
     bundleIdentifier: env.iosBundleId,
     "infoPlist": {
-        "ITSAppUsesNonExemptEncryption": false
-      }
+      "ITSAppUsesNonExemptEncryption": false,
+      "NSCameraUsageDescription": "We need camera access to capture photos and videos for incident reports and wildlife documentation.",
+      "NSPhotoLibraryUsageDescription": "We need access to your photo library to attach images to reports.",
+      "NSPhotoLibraryAddOnlyUsageDescription": "We need permission to save photos to your library.",
+      "NSLocationWhenInUseUsageDescription": "We need your location to map incidents and wildlife hotspots.",
+      "NSLocationAlwaysAndWhenInUseUsageDescription": "We need your location for incident mapping and biodiversity tracking."
+    }
   },
   android: {
     adaptiveIcon: {
@@ -64,7 +69,14 @@ const config: ExpoConfig = {
     edgeToEdgeEnabled: true,
     predictiveBackGestureEnabled: false,
     package: env.androidPackage,
-    permissions: ["POST_NOTIFICATIONS"],
+    permissions: [
+      "POST_NOTIFICATIONS",
+      "CAMERA",
+      "READ_EXTERNAL_STORAGE",
+      "WRITE_EXTERNAL_STORAGE",
+      "ACCESS_FINE_LOCATION",
+      "ACCESS_COARSE_LOCATION",
+    ],
     intentFilters: [
       {
         action: "VIEW",
