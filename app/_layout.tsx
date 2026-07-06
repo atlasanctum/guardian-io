@@ -96,6 +96,7 @@ export default function RootLayout() {
             <Stack.Screen name="biodiversity-map" />
             <Stack.Screen name="leaderboard" />
             <Stack.Screen name="user-profile" />
+            <Stack.Screen name="impact-dashboard" />
             <Stack.Screen name="oauth/callback" />
           </Stack>
           <StatusBar style="auto" />

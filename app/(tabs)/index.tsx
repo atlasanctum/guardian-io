@@ -43,6 +43,13 @@ export default function HomeScreen() {
           <Text className="text-white font-semibold">Track Report Status</Text>
         </TouchableOpacity>
         <TouchableOpacity
+          onPress={() => router.push('/impact-dashboard')}
+          style={{ backgroundColor: colors.ocean }}
+          className="p-4 rounded-xl items-center active:opacity-80"
+        >
+          <Text className="text-white font-semibold">Global Impact</Text>
+        </TouchableOpacity>
+        <TouchableOpacity
           onPress={() => router.push('/leaderboard')}
           style={{ backgroundColor: colors.forest }}
           className="p-4 rounded-xl items-center active:opacity-80"
