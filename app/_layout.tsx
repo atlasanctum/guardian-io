@@ -97,6 +97,7 @@ export default function RootLayout() {
             <Stack.Screen name="leaderboard" />
             <Stack.Screen name="user-profile" />
             <Stack.Screen name="impact-dashboard" />
+            <Stack.Screen name="data-export" />
             <Stack.Screen name="oauth/callback" />
           </Stack>
           <StatusBar style="auto" />

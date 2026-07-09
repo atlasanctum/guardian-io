@@ -69,6 +69,13 @@ export default function SettingsScreen() {
                 <Text className="text-white font-semibold">View My Profile</Text>
               </TouchableOpacity>
               <TouchableOpacity
+                onPress={() => router.push('/data-export')}
+                style={{ backgroundColor: colors.forest }}
+                className="py-3 rounded-lg items-center active:opacity-80"
+              >
+                <Text className="text-white font-semibold">Export & Share</Text>
+              </TouchableOpacity>
+              <TouchableOpacity
                 onPress={handleChangeRole}
                 style={{ backgroundColor: colors.primary }}
                 className="py-3 rounded-lg items-center active:opacity-80"

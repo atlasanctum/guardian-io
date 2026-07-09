@@ -141,3 +141,21 @@
 - [ ] Deploy WebSocket server for production
 - [ ] Configure PostgreSQL database connection
 - [ ] Set up environment variables for production
+
+
+## Phase 8: Production Environment & Data Export
+- [x] Create .env.production.example with all required environment variables
+- [x] Document database, WebSocket, S3, email, and authentication configurations
+- [x] Create WebSocket server with event broadcasting
+- [x] Implement real-time event types (report updates, incidents, leaderboard, impact)
+- [x] Add client subscription and event history management
+- [x] Create data export utilities (PDF, JSON, CSV)
+- [x] Implement social media sharing for impact stories
+- [x] Create contribution certificate generation
+- [x] Build data export screen with UI
+- [x] Integrate export screen into app navigation
+- [ ] Deploy WebSocket server to production
+- [ ] Configure environment variables on production server
+- [ ] Set up SSL/TLS certificates for WebSocket
+- [ ] Configure S3 bucket for file uploads
+- [ ] Set up email service for notifications
