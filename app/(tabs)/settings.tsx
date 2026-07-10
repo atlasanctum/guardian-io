@@ -90,6 +90,20 @@ export default function SettingsScreen() {
                 <Text className="text-white font-semibold">Your Analytics</Text>
               </TouchableOpacity>
               <TouchableOpacity
+                onPress={() => router.push('/community')}
+                style={{ backgroundColor: colors.primary }}
+                className="py-3 rounded-lg items-center active:opacity-80"
+              >
+                <Text className="text-white font-semibold">Community Forum</Text>
+              </TouchableOpacity>
+              <TouchableOpacity
+                onPress={() => router.push('/language-settings')}
+                style={{ backgroundColor: colors.warning }}
+                className="py-3 rounded-lg items-center active:opacity-80"
+              >
+                <Text className="text-white font-semibold">Language Settings</Text>
+              </TouchableOpacity>
+              <TouchableOpacity
                 onPress={handleChangeRole}
                 style={{ backgroundColor: colors.primary }}
                 className="py-3 rounded-lg items-center active:opacity-80"
