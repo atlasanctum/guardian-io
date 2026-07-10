@@ -43,6 +43,13 @@ export default function HomeScreen() {
           <Text className="text-white font-semibold">Track Report Status</Text>
         </TouchableOpacity>
         <TouchableOpacity
+          onPress={() => router.push('/search')}
+          style={{ backgroundColor: colors.forest }}
+          className="p-4 rounded-xl items-center active:opacity-80"
+        >
+          <Text className="text-white font-semibold">Search & Discover</Text>
+        </TouchableOpacity>
+        <TouchableOpacity
           onPress={() => router.push('/impact-dashboard')}
           style={{ backgroundColor: colors.ocean }}
           className="p-4 rounded-xl items-center active:opacity-80"
