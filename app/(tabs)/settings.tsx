@@ -76,6 +76,20 @@ export default function SettingsScreen() {
                 <Text className="text-white font-semibold">Export & Share</Text>
               </TouchableOpacity>
               <TouchableOpacity
+                onPress={() => router.push('/notification-preferences')}
+                style={{ backgroundColor: colors.warning }}
+                className="py-3 rounded-lg items-center active:opacity-80"
+              >
+                <Text className="text-white font-semibold">Notifications</Text>
+              </TouchableOpacity>
+              <TouchableOpacity
+                onPress={() => router.push('/analytics-insights')}
+                style={{ backgroundColor: colors.ocean }}
+                className="py-3 rounded-lg items-center active:opacity-80"
+              >
+                <Text className="text-white font-semibold">Your Analytics</Text>
+              </TouchableOpacity>
+              <TouchableOpacity
                 onPress={handleChangeRole}
                 style={{ backgroundColor: colors.primary }}
                 className="py-3 rounded-lg items-center active:opacity-80"

@@ -99,6 +99,8 @@ export default function RootLayout() {
             <Stack.Screen name="impact-dashboard" />
             <Stack.Screen name="data-export" />
             <Stack.Screen name="search" />
+            <Stack.Screen name="notification-preferences" />
+            <Stack.Screen name="analytics-insights" />
             <Stack.Screen name="oauth/callback" />
           </Stack>
           <StatusBar style="auto" />
