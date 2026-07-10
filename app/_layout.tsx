@@ -101,6 +101,7 @@ export default function RootLayout() {
             <Stack.Screen name="search" />
             <Stack.Screen name="notification-preferences" />
             <Stack.Screen name="analytics-insights" />
+            <Stack.Screen name="onboarding" options={{ headerShown: false }} />
             <Stack.Screen name="oauth/callback" />
           </Stack>
           <StatusBar style="auto" />
